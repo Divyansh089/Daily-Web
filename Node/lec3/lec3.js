@@ -9,3 +9,5 @@ app.get("/", (req, res) => {
 app.listen(port, () => {
     console.log(`Sever is running on ${port}`);
 });
+
+// get (method) : - get (ask), put(update all) , post(send data) , delete(remove content) , patch(update particular content)
