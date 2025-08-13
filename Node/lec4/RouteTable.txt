@@ -1,0 +1,8 @@
+route name    url            http verb  description
+index         /bogs          GET        display a list of all blogs
+new           /blogs/new     GET        show from to make new blogs
+create        /bogs          POST       add new blog to database , then redirect
+show          /bogs/:id      GET        show info about one blogs
+edit          /bogs/:id/edit GET        show edit form of one blog
+update        /bogs/:id      GET        update a particular blog , then redirect
+destroy       /bogs/:id      DELETE     delete a particular blog  , then redirect
